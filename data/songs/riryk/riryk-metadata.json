@@ -23,13 +23,14 @@
       "opponentVocals": ["huvi"],
       "playerVocals": ["bf"]
     },
-    "stage": "mainStage",
+    "stage": "Gralit",
     "noteStyle": "funkin",
     "ratings": {
       "easy": 3,
       "hard": 5,
       "normal": 4
     },
+    "album": "itucow1",
     "previewStart": 0,
     "previewEnd": 0
   },
