@@ -1,0 +1,20 @@
+import funkin.ui.story.Level;
+import funkin.save.Save;
+
+import flixel.FlxSprite;
+
+class RirykLevel extends Level
+{
+  function new()
+  {
+    super('riryk');
+  }
+
+  public function buildTitleGraphic():FlxSprite
+  {
+    var result:FlxSprite = new FlxSprite().loadGraphic(Paths.image(_data.titleAsset));
+    result.scale.set(.5,.5);
+    result.updateHitbox();
+    return result;
+  }
+}
