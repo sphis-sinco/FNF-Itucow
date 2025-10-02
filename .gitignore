@@ -3,3 +3,5 @@ RECOVER_**.fla
 
 # this is just to avoid dupe files
 dev/flFiles/**/**.ogg
+# this is just to avoid technically dupe files
+dev/fnfcFiles/**.zip
