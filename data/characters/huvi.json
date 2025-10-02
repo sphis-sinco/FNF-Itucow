@@ -20,7 +20,7 @@
 	"healthIcon": {
 		"offsets": [
 			0,
-			0
+			32
 		],
 		"id": "huvi",
 		"flipX": false,
