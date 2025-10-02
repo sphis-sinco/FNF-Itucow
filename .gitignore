@@ -1,2 +1,5 @@
 ** (** at **).flp
 RECOVER_**.fla
+
+# this is just to avoid dupe files
+dev/flFiles/**/**.ogg
