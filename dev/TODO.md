@@ -1,9 +1,9 @@
 # Patches
-- [x] Fix sky not being big enough on mobile (Scale it up to like 4x)
+N / A
 
 # Content
-- [ ] Riryk (Erect) Song
 - [ ] Futry Song
-- [ ] Futry (Erect) Song
-- [ ] Shift Song
-- [ ] Shift (Erect) Song
+- [ ] Ruvuy Song
+- [ ] Vevi Song
+- [ ] Hyn Song
+- [ ] Wuju Song
