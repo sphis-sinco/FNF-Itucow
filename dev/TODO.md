@@ -1,5 +1,5 @@
 # Patches
-- [ ] Fix sky not being big enough on mobile (Scale it up to like 4x)
+- [x] Fix sky not being big enough on mobile (Scale it up to like 4x)
 
 # Content
 - [ ] Riryk (Erect) Song
