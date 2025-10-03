@@ -1,0 +1,28 @@
+import funkin.play.cutscene.dialogue.Conversation;
+import flixel.util.FlxTimer;
+
+class RirykConversation extends Conversation
+{
+  function new()
+  {
+    super('riryk');
+  }
+
+  override function showCurrentSpeaker():Void
+  {
+    super.showCurrentSpeaker();
+
+    // Funny moment; stop the music for dramatic effect.
+    switch (currentSpeaker.id)
+    {
+      case 'huvi-mic-hit':
+        if (this.music != null)
+        {
+          new FlxTimer().start((1 / 24) * 5, _ -> {
+            this.music.destroy();
+            this.music = null;
+          });
+        }
+    }
+  }
+}
