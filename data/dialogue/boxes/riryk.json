@@ -11,9 +11,9 @@
   "text": {
     "offsets": [50, 25],
     "width": 900,
-    "color": "#3F2021",
-    "shadowColor": "#D89494",
-    "shadowWidth": 2
+    "color": "#000000",
+    "shadowColor": "#000000",
+    "shadowWidth": 0
   },
 
   "animations": [
