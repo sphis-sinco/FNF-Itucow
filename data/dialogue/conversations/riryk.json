@@ -63,6 +63,15 @@
       "boxAnimation": "idle",
 
       "text": ["???"]
+    },
+    {
+      "speaker": "bf-rightnote",
+      "speakerAnimation": "rightnote",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["Bee bo ba!"]
     }
   ]
 }
