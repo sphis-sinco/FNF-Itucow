@@ -13,7 +13,8 @@
     },
     {
       "name": "intro",
-      "prefix": "huvi concerned intro"
+      "prefix": "huvi concerned intro",
+      "offsets": [-40, 0]
     }
   ]
 }
