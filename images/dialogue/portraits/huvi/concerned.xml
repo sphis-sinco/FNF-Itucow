@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="concerned.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="huvi concerned idle0000" x="4" y="4" width="285" height="483"/>
+	<SubTexture name="huvi concerned intro0000" x="297" y="4" width="285" height="483" frameX="0" frameY="0" frameWidth="325" frameHeight="483"/>
+	<SubTexture name="huvi concerned intro0001" x="590" y="4" width="284" height="483" frameX="-5" frameY="0" frameWidth="325" frameHeight="483"/>
+	<SubTexture name="huvi concerned intro0002" x="4" y="495" width="284" height="483" frameX="-18" frameY="0" frameWidth="325" frameHeight="483"/>
+	<SubTexture name="huvi concerned intro0003" x="4" y="4" width="285" height="483" frameX="-40" frameY="0" frameWidth="285" frameHeight="483"/>
+</TextureAtlas>

@@ -1,0 +1,31 @@
+{
+  "version": "1.1.0",
+  "name": "Riryk Dialogue Box",
+  "assetPath": "dialogue/box/default",
+  "isPixel": false,
+  "flipX": false,
+  "flipY": false,
+  "offsets": [-620, 120],
+  "scale": 1.0,
+
+  "text": {
+    "offsets": [50, 25],
+    "width": 900,
+    "color": "#3F2021",
+    "shadowColor": "#D89494",
+    "shadowWidth": 2
+  },
+
+  "animations": [
+    {
+      "name": "enter",
+      "prefix": "enter",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "idle",
+      "prefix": "idle",
+      "offsets": [0, 0]
+    }
+  ]
+}

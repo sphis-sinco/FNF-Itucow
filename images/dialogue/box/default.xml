@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="default.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="enter0000" x="4" y="4" width="110" height="94" frameX="0" frameY="0" frameWidth="1249" frameHeight="230"/>
+	<SubTexture name="enter0001" x="4" y="4" width="110" height="94" frameX="0" frameY="0" frameWidth="1249" frameHeight="230"/>
+	<SubTexture name="enter0002" x="122" y="4" width="1003" height="199" frameX="0" frameY="0" frameWidth="1249" frameHeight="230"/>
+	<SubTexture name="enter0003" x="122" y="4" width="1003" height="199" frameX="0" frameY="0" frameWidth="1249" frameHeight="230"/>
+	<SubTexture name="enter0004" x="4" y="211" width="1206" height="214" frameX="-22" frameY="-15" frameWidth="1249" frameHeight="230"/>
+	<SubTexture name="enter0005" x="4" y="433" width="1249" height="230"/>
+	<SubTexture name="idle0000" x="4" y="433" width="1249" height="230"/>
+</TextureAtlas>

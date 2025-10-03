@@ -67,7 +67,7 @@ class RirykSong extends Song
 
     new FlxTimer().start(0.25, _ -> {
       PlayState.instance.remove(black);
-      RetroCameraFade.fadeBlack(PlayState.instance.camGame, 12, 2);
+      FlxTween.tween(PlayState.instance.camGame, {alpha: 1}, 1.0);
     });
 
     FlxTween.num(0.0, 1.0, 2.0,
@@ -83,7 +83,7 @@ class RirykSong extends Song
   function startDialogue()
   {
     PlayState.instance.disableKeys = false;
-    PlayState.instance.startConversation('senpai');
+    PlayState.instance.startConversation('riryk');
   }
 
   /**
