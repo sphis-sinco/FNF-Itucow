@@ -21,12 +21,12 @@
   "dialogue": [
     {
       "speaker": "huvi",
-      "speakerAnimation": "intro",
+      "speakerAnimation": "concerned-intro",
 
       "box": "riryk",
       "boxAnimation": "enter",
 
-      "text": ["Oh my god!"]
+      "text": ["Oh my god!", "\nAre you okay?"]
     },
     
     {
@@ -36,7 +36,7 @@
       "box": "riryk",
       "boxAnimation": "idle",
 
-      "text": ["Are you okay?"]
+      "text": [""]
     }
   ]
 }
