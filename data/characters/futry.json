@@ -1,0 +1,92 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Futry",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/futry",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "futry",
+		"flipX": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "futry anim idle",
+			"name": "idle",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-40,
+				25
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "futry anim left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				25,
+				-120
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "futry anim down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				40,
+				170
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "futry anim up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-50,
+				10
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "futry anim right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		}
+	]
+}
