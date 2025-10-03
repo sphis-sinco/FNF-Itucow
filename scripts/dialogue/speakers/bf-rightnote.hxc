@@ -1,0 +1,20 @@
+import funkin.play.cutscene.dialogue.Speaker;
+import flixel.FlxG;
+
+class BoyfriendRightnoteSpeaker extends Speaker
+{
+  function new()
+  {
+    super('bf-rightnote');
+  }
+
+  public function playAnimation(name:String, restart:Bool = false):Void
+  {
+    super.playAnimation(name, restart);
+
+    if (name == "rightnote")
+    {
+      FlxG.sound.play(Paths.sound('bf-beboba'));
+    }
+  }
+}
