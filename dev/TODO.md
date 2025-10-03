@@ -2,8 +2,8 @@
 - [ ] Fix Huvi Freeplay Icon being Offset
 
 # Content
-- [ ] Futry Song
-- [ ] Ruvuy Song
-- [ ] Vevi Song
-- [ ] Hyn Song
-- [ ] Wuju Song
+- [ ] Add Futry Song
+- [ ] Add Ruvuy Song
+- [ ] Add Vevi Song
+- [ ] Add Hyn Song
+- [ ] Add Wuju Song
