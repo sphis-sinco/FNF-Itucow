@@ -7,3 +7,6 @@ dev/flFiles/**/**.ogg
 # this is just to avoid technically dupe files
 dev/fnfcFiles/**.zip
 dev/fnfsFiles/**.zip
+
+# no bloat of the project size for github
+Itucow-**.zip
