@@ -45,6 +45,24 @@
       "boxAnimation": "idle",
 
       "text": ["Well... if you're okay..."]
+    },
+    {
+      "speaker": "huvi-mic-hit",
+      "speakerAnimation": "michit",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["!!!"]
+    },
+    {
+      "speaker": "huvi-mic-hit",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["???"]
     }
   ]
 }

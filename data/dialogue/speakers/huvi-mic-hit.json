@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "name": "Huvi (Mic hit)",
+  "assetPath": "dialogue/portraits/huvi/michit",
+  "flipX": false,
+  "isPixel": false,
+  "scale": 1.0,
+  "offsets": [55, 27],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "huvi mic hit",
+      "frameIndices": [14]
+    },
+    {
+      "name": "michit",
+      "prefix": "huvi mic hit"
+    }
+  ]
+}

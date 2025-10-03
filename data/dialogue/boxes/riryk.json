@@ -12,6 +12,7 @@
     "offsets": [50, 25],
     "width": 900,
     "color": "#000000",
+    "fontFamily": "Inconsolata Black",
     "shadowColor": "#000000",
     "shadowWidth": 0
   },
