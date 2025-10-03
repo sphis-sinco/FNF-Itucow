@@ -28,10 +28,9 @@
 
       "text": ["Oh my god!", "\nAre you okay?"]
     },
-    
     {
-      "speaker": "huvi",
-      "speakerAnimation": "idle",
+      "speaker": "bf",
+      "speakerAnimation": "cheer",
 
       "box": "riryk",
       "boxAnimation": "idle",
