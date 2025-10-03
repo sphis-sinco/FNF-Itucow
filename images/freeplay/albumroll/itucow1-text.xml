@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="itucow1-text.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="4" y="4" width="227" height="235"/>
+	<SubTexture name="switch0000" x="239" y="4" width="227" height="235"/>
+	<SubTexture name="switch0001" x="239" y="4" width="227" height="235"/>
+	<SubTexture name="switch0002" x="239" y="4" width="227" height="235"/>
+	<SubTexture name="switch0003" x="239" y="4" width="227" height="235"/>
+</TextureAtlas>
