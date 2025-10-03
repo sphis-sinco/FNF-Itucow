@@ -8,9 +8,9 @@
   },
 
   "music": {
-    "asset": "",
+    "asset": "breakfast-pico/breakfast-pico",
     "fadeTime": 0,
-    "looped": false
+    "looped": true
   },
 
   "outro": {
@@ -24,9 +24,19 @@
       "speakerAnimation": "intro",
 
       "box": "riryk",
+      "boxAnimation": "enter",
+
+      "text": ["Oh my god!"]
+    },
+    
+    {
+      "speaker": "huvi",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
       "boxAnimation": "idle",
 
-      "text": ["Hello!"]
+      "text": ["Are you okay?"]
     }
   ]
 }
