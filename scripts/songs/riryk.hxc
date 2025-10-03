@@ -60,24 +60,17 @@ class RirykSong extends Song
 
     black.alpha = 1.0;
 
-    var tweenFunction = function(x) {
-      var xSnapped = Math.floor(x * 8) / 8;
-      // black.alpha = 1.0 - xSnapped;
-    };
-
     new FlxTimer().start(0.25, _ -> {
-      PlayState.instance.remove(black);
-      FlxTween.tween(PlayState.instance.camGame, {alpha: 1}, 1.0);
+      FlxTween.tween(black, {alpha: 0}, 1.0, {
+        onComplete: _ -> {
+          PlayState.instance.remove(black);
+        }
+      });
     });
 
-    FlxTween.num(0.0, 1.0, 2.0,
-      {
-        ease: FlxEase.linear,
-        startDelay: 0.25,
-        onComplete: function(input) {
-          startDialogue();
-        }
-      }, tweenFunction);
+    new FlxTimer().start(1.0 + .25, _ -> {
+      startDialogue();
+    });
   }
 
   function startDialogue()

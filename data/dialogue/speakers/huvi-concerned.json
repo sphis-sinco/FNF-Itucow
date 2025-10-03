@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "Huvi",
+  "name": "Huvi (Concerned)",
   "assetPath": "dialogue/portraits/huvi/concerned",
   "flipX": false,
   "isPixel": false,
@@ -8,11 +8,11 @@
   "offsets": [-450, 0],
   "animations": [
     {
-      "name": "concerned-idle",
+      "name": "idle",
       "prefix": "huvi concerned idle"
     },
     {
-      "name": "concerned-intro",
+      "name": "intro",
       "prefix": "huvi concerned intro",
       "offsets": [-40, 0]
     }

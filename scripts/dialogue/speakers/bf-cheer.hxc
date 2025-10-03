@@ -1,11 +1,11 @@
 import funkin.play.cutscene.dialogue.Speaker;
 import flixel.FlxG;
 
-class BoyfriendSpeaker extends Speaker
+class BoyfriendCheerSpeaker extends Speaker
 {
   function new()
   {
-    super('bf');
+    super('bf-cheer');
   }
 
   public function playAnimation(name:String, restart:Bool = false):Void

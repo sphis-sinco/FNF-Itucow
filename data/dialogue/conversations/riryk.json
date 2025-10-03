@@ -20,8 +20,8 @@
 
   "dialogue": [
     {
-      "speaker": "huvi",
-      "speakerAnimation": "concerned-intro",
+      "speaker": "huvi-concerned",
+      "speakerAnimation": "intro",
 
       "box": "riryk",
       "boxAnimation": "enter",
@@ -29,13 +29,22 @@
       "text": ["Oh my god! You just fell from the--\nAre you okay?"]
     },
     {
-      "speaker": "bf",
+      "speaker": "bf-cheer",
       "speakerAnimation": "cheer",
 
       "box": "riryk",
       "boxAnimation": "idle",
 
       "text": [""]
+    },
+    {
+      "speaker": "huvi-scratch",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["Well... if you're okay..."]
     }
   ]
 }

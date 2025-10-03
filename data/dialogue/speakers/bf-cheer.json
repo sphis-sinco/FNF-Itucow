@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
-  "name": "Boyfriend",
+  "name": "Boyfriend (Cheer)",
   "assetPath": "dialogue/portraits/bf/cheer",
   "flipX": false,
   "isPixel": false,
   "scale": 1.0,
-  "offsets": [450, 0],
+  "offsets": [400, 0],
   "animations": [
     {
-      "name": "cheer-idle",
+      "name": "idle",
       "prefix": "bf cheer",
       "frameIndices": [5]
     },
