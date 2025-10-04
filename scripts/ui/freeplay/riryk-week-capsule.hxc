@@ -1,0 +1,30 @@
+import flixel.FlxG;
+
+import funkin.modding.module.Module;
+import funkin.util.ReflectUtil;
+
+class RirykWeekCapsule extends Module
+{
+    public function new()
+    {
+        // This registers a NAME for the module, which might be needed later!
+        super("riryk-week-capsule");
+    }
+
+    public override function onSubStateOpenEnd(event:SubStateScriptEvent)
+    {
+        var substate = ReflectUtil.getClassNameOf(FlxG.state.subState);
+
+
+        trace("CURRENT SUBSTATE: "+substate);
+        if (substate == "funkin.ui.freeplay.FreeplayState")
+        {
+            var freeplay = FlxG.state.subState;
+
+            for (capsule in freeplay.grpCapsules)
+            {
+                trace(capsule.index);
+            }
+        }
+    }
+}
