@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="futry.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="futry gralit prop excited0000" x="4" y="4" width="448" height="532" frameX="0" frameY="-20" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0001" x="4" y="4" width="448" height="532" frameX="0" frameY="-20" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0002" x="460" y="4" width="399" height="579" frameX="-18" frameY="0" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0003" x="460" y="4" width="399" height="579" frameX="-18" frameY="0" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0004" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0005" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0006" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0007" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0008" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0009" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0010" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0011" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0012" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0013" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0014" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0015" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0016" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0017" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0018" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0019" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0020" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0021" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0022" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop excited0023" x="867" y="4" width="426" height="539" frameX="-7" frameY="-12" frameWidth="448" frameHeight="579"/>
+	<SubTexture name="futry gralit prop sad0000" x="1301" y="4" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0001" x="1301" y="4" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0002" x="1301" y="4" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0003" x="1301" y="4" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0004" x="4" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0005" x="4" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0006" x="4" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0007" x="4" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0008" x="441" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0009" x="441" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0010" x="441" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0011" x="441" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0012" x="1301" y="4" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0013" x="1301" y="4" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0014" x="1301" y="4" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0015" x="1301" y="4" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0016" x="4" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0017" x="4" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0018" x="4" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0019" x="4" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0020" x="441" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0021" x="441" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0022" x="441" y="591" width="429" height="543"/>
+	<SubTexture name="futry gralit prop sad0023" x="441" y="591" width="429" height="543"/>
+</TextureAtlas>
