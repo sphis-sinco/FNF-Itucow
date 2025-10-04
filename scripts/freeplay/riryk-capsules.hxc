@@ -46,7 +46,7 @@ class RirykCapsules extends Module {
 				songName = capsule.freeplayData.fullSongName;
 			}
 
-			rirykWeekCapsule = albumId.contains('itucow') || rirykCapsules.contains(songName);
+			rirykWeekCapsule = (albumId.contains('itucow') || rirykCapsules.contains(songName)) && capsule.freeplayData != null;
 
 			if (rirykWeekCapsule) {
 				if (!rirykCapsules.contains(songName)) {
