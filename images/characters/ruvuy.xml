@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ruvuy.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ruvuy anim down0000" x="4" y="4" width="397" height="493" frameX="-2" frameY="-3" frameWidth="399" frameHeight="496"/>
+	<SubTexture name="ruvuy anim down0001" x="4" y="4" width="397" height="493" frameX="-2" frameY="-3" frameWidth="399" frameHeight="496"/>
+	<SubTexture name="ruvuy anim down0002" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0003" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0004" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0005" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0006" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0007" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0008" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0009" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0010" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0011" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0012" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0013" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0014" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0015" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0016" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0017" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0018" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0019" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0020" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0021" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0022" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim down0023" x="409" y="4" width="399" height="496"/>
+	<SubTexture name="ruvuy anim idle0000" x="816" y="4" width="268" height="631" frameX="-31" frameY="-6" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0001" x="816" y="4" width="268" height="631" frameX="-31" frameY="-6" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0002" x="1092" y="4" width="302" height="631" frameX="0" frameY="-2" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0003" x="1092" y="4" width="302" height="631" frameX="0" frameY="-2" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0004" x="816" y="4" width="268" height="631" frameX="-31" frameY="-6" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0005" x="816" y="4" width="268" height="631" frameX="-31" frameY="-6" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0006" x="1402" y="4" width="291" height="627" frameX="-35" frameY="-1" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0007" x="1402" y="4" width="291" height="627" frameX="-35" frameY="-1" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0008" x="1701" y="4" width="299" height="619" frameX="-38" frameY="0" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0009" x="1701" y="4" width="299" height="619" frameX="-38" frameY="0" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0010" x="1701" y="4" width="299" height="619" frameX="-38" frameY="0" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0011" x="1701" y="4" width="299" height="619" frameX="-38" frameY="0" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0012" x="1402" y="4" width="291" height="627" frameX="-35" frameY="-1" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim idle0013" x="1402" y="4" width="291" height="627" frameX="-35" frameY="-1" frameWidth="337" frameHeight="637"/>
+	<SubTexture name="ruvuy anim left0000" x="4" y="643" width="305" height="631" frameX="0" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0001" x="4" y="643" width="305" height="631" frameX="0" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0002" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0003" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0004" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0005" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0006" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0007" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0008" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0009" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0010" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0011" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0012" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0013" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0014" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0015" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0016" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0017" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0018" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0019" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0020" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0021" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0022" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim left0023" x="317" y="643" width="294" height="628" frameX="-21" frameY="0" frameWidth="315" frameHeight="631"/>
+	<SubTexture name="ruvuy anim right0000" x="619" y="643" width="461" height="601" frameX="0" frameY="0" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0001" x="619" y="643" width="461" height="601" frameX="0" frameY="0" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0002" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0003" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0004" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0005" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0006" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0007" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0008" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0009" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0010" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0011" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0012" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0013" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0014" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0015" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0016" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0017" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0018" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0019" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0020" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim right0021" x="1088" y="643" width="426" height="599" frameX="-1" frameY="-3" frameWidth="461" frameHeight="602"/>
+	<SubTexture name="ruvuy anim up0000" x="1522" y="643" width="301" height="667" frameX="0" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0001" x="1522" y="643" width="301" height="667" frameX="0" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0002" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0003" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0004" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0005" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0006" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0007" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0008" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0009" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0010" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0011" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0012" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0013" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0014" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0015" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0016" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0017" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0018" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0019" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0020" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0021" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0022" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+	<SubTexture name="ruvuy anim up0023" x="4" y="1318" width="284" height="666" frameX="-29" frameY="0" frameWidth="313" frameHeight="667"/>
+</TextureAtlas>
