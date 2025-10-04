@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="weektypes-riryk.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RIRYK text0000" x="4" y="4" width="133" height="28"/>
+	<SubTexture name="WEEK text0000" x="4" y="40" width="133" height="28"/>
+	<SubTexture name="WEEKEND text0000" x="4" y="76" width="133" height="28"/>
+</TextureAtlas>

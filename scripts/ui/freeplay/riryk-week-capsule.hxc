@@ -23,7 +23,18 @@ class RirykWeekCapsule extends Module
 
             for (capsule in freeplay.grpCapsules)
             {
-                trace(capsule.index);
+                // trace(capsule.index);
+
+                var rirykWeekCapsule = false;
+
+                if (rirykWeekCapsule)
+                {
+                    weekType.frames = Paths.getSparrowAtlas('freeplay/freeplayCapsule/weektypes-riryk');
+
+                    weekType.animation.addByPrefix('WEEK', 'WEEK text', 24, false);
+                    weekType.animation.addByPrefix('WEEKEND', 'WEEKEND text', 24, false);
+                    weekType.animation.addByPrefix('RIRYK', 'RIRYK text', 24, false);
+                }
             }
         }
     }
