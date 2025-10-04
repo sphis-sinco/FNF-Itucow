@@ -29,7 +29,7 @@ class RirykCapsules extends Module {
 	}
 
 	public function freeplayUpdate() {
-		if (!freeplaySubState)
+		if (!freeplaySubState || PlayState.instance != null)
 			return;
 		var freeplay = FlxG.state.subState;
 
