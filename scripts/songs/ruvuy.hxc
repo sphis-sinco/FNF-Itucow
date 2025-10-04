@@ -13,7 +13,8 @@ import funkin.effects.RetroCameraFade;
 
 class RuvuySong extends Song
 {
-  var hasPlayedCutscene:Bool;
+  var hasPlayedIntroCutscene:Bool;
+  var hasPlayedEndCutscene:Bool;
 
   public function new()
   {
@@ -25,16 +26,16 @@ class RuvuySong extends Song
     super.onCountdownStart(event);
 
     // Skip the cutscene unless we are in Story Mode
-    if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
+    if (!PlayStatePlaylist.isStoryMode) hasPlayedIntroCutscene = true;
 
     // Skip the cutscene if we're playtesting in the Chart Editor.
-    if (PlayState.instance.isChartingMode && !hasPlayedCutscene) hasPlayedCutscene = true;
+    if (PlayState.instance.isChartingMode && !hasPlayedIntroCutscene) hasPlayedIntroCutscene = true;
 
-    if (!hasPlayedCutscene)
+    if (!hasPlayedIntroCutscene)
     {
       trace('Pausing countdown to play cutscene.');
 
-      hasPlayedCutscene = true;
+      hasPlayedIntroCutscene = true;
 
       event.cancel(); // CANCEL THE COUNTDOWN!
 
@@ -86,7 +87,50 @@ class RuvuySong extends Song
   {
     super.onSongRetry(event);
 
-    hasPlayedCutscene = true;
+    hasPlayedIntroCutscene = true;
+  }
+
+  public override function onSongEnd(event:CountdownScriptEvent):Void
+  {
+    super.onSongEnd(event);
+
+    // if (!PlayStatePlaylist.isStoryMode) hasPlayedEndCutscene = true;
+
+    if (!hasPlayedEndCutscene)
+    {
+      PlayState.instance.isInCutscene = true;
+      PlayState.instance.mayPauseGame = false;
+      hasPlayedEndCutscene = true;
+
+      event.cancel();
+
+      // start the video cutscene and hide it so the other stuff can happen after
+      startVideo();
+    }
+    else
+    {
+      // Make sure the cutscene can play again next time!
+      hasPlayedEndCutscene = false;
+      PlayState.instance.isInCutscene = false;
+      PlayState.instance.mayPauseGame = true;
+      // DO NOT CANCEL THE EVENT!
+    }
+  }
+
+  function startVideo()
+  {
+    var videoPath = 'Ruvuy_EndCutscene_V1';
+
+    if (Preferences.naughtyness)
+    {
+      videoPath += '-naughty';
+    } else {
+      videoPath += '-nice';
+    }
+
+    trace(Paths.videos(videoPath));
+
+    VideoCutscene.play(Paths.videos(videoPath, ''));
   }
 
   /**
@@ -96,7 +140,8 @@ class RuvuySong extends Song
   {
     super.onCreate(event);
 
-    hasPlayedCutscene = false;
+    hasPlayedIntroCutscene = false;
+    hasPlayedEndCutscene = false;
   }
 
   public override function onDialogueEnd()
