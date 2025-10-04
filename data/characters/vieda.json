@@ -18,75 +18,75 @@
 	"isPixel": false,
 	"assetPath": "characters/vieda",
 	"healthIcon": {
+		"isPixel": false,
 		"offsets": [
 			0,
 			32
 		],
-		"isPixel": false,
 		"scale": 1,
-		"flipX": false,
-		"id": "vieda"
+		"id": "vieda",
+		"flipX": false
 	},
 	"animations": [
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "vieda anim idle",
-			"flipX": false,
+			"name": "idle",
 			"looped": false,
-			"name": "idle"
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				5,
-				0
+				160,
+				140
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "vieda anim left",
-			"flipX": false,
+			"name": "singLEFT",
 			"looped": false,
-			"name": "singLEFT"
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				10,
-				-140
+				-25,
+				-20
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "vieda anim down",
-			"flipX": false,
+			"name": "singDOWN",
 			"looped": false,
-			"name": "singDOWN"
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				50,
-				40
+				190
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "vieda anim up",
-			"flipX": false,
+			"name": "singUP",
 			"looped": false,
-			"name": "singUP"
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				25,
-				-30
+				-45,
+				20
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "vieda anim right",
-			"flipX": false,
+			"name": "singRIGHT",
 			"looped": false,
-			"name": "singRIGHT"
+			"flipX": false
 		}
 	]
 }
