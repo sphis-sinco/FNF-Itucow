@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="futrypixel.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="confirm0000" x="4" y="4" width="57" height="46" frameX="0" frameY="-4" frameWidth="57" frameHeight="50"/>
+	<SubTexture name="confirm0001" x="4" y="4" width="57" height="46" frameX="0" frameY="-4" frameWidth="57" frameHeight="50"/>
+	<SubTexture name="confirm0002" x="69" y="4" width="48" height="47" frameX="-4" frameY="0" frameWidth="57" frameHeight="50"/>
+	<SubTexture name="confirm0003" x="69" y="4" width="48" height="47" frameX="-4" frameY="0" frameWidth="57" frameHeight="50"/>
+	<SubTexture name="confirm-hold0000" x="4" y="59" width="52" height="48"/>
+	<SubTexture name="idle0000" x="64" y="59" width="57" height="48"/>
+</TextureAtlas>
