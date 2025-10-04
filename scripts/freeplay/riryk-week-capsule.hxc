@@ -8,8 +8,15 @@ class RirykWeekCapsule extends Module {
 	var currentSubState:String;
 	var freeplaySubState:Bool;
 
+	var RIRYK_CAPSULE:String = 'RIRYK';
+	var RIRYK_CITY_CAPSULE:String = 'RIRYKCITY';
+
+	var customSongsAndTheirCapsules:Map<String, String> = [
+		"Riryk" => RIRYK_CAPSULE,
+		"Futry" => RIRYK_CAPSULE
+	];
+
 	public function new() {
-		// This registers a NAME for the module, which might be needed later!
 		super("riryk-week-capsule");
 	}
 
@@ -18,38 +25,35 @@ class RirykWeekCapsule extends Module {
 
 		trace("CURRENT SUBSTATE: " + currentSubState);
 		freeplaySubState = (currentSubState == "funkin.ui.freeplay.FreeplayState");
-
-		freeplayUpdate();
 	}
 
-	public function onUpdate(event:UpdateScriptEvent) {}
+	public function onUpdate(event:UpdateScriptEvent)
+	{
+		freeplayUpdate();
+	}
 
 	public function freeplayUpdate() {
 		if (!freeplaySubState)
 			return;
+
 		var freeplay = FlxG.state.subState;
-
 		for (capsule in freeplay.grpCapsules) {
-			// trace(capsule.index);
 
-			var rirykWeekCapsule = false;
-			var albumId = '';
+			var customSongCapsules:Array<String> = [];
+			for (key => value in customSongsAndTheirCapsules)
+				customSongCapsules.push(key);
+
 			var songName = '';
-
-			if (capsule.freeplayData != null) {
-				albumId = capsule.freeplayData.data.getAlbumId(freeplay.currentDifficulty, freeplay.currentVariation);
+			if (capsule.freeplayData != null)
 				songName = capsule.freeplayData.fullSongName;
-			}
 
-			rirykWeekCapsule = albumId.contains('itucow');
-
-			if (rirykWeekCapsule) {
-				trace(songName + ' is a riryk week capsule');
-
+			if (customSongCapsules.contains(songName)) {
 				capsule.weekType.frames = Paths.getSparrowAtlas('freeplay/freeplayCapsule/weektypes-riryk');
 
-				capsule.weekType.animation.addByPrefix('RIRYK', 'RIRYK text', 24, false);
-				capsule.weekType.animation.play('RIRYK');
+				capsule.weekType.animation.addByPrefix(RIRYK_CAPSULE, 'RIRYK text', 24, false);
+				capsule.weekType.animation.addByPrefix(RIRYK_CITY_CAPSULE, 'RIRYKCITY text', 24, false);
+
+				capsule.weekType.animation.play(customSongsAndTheirCapsules.get(songName));
 
 				capsule.weekType.visible = true;
 			}
