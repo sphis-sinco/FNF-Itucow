@@ -114,7 +114,7 @@ class RuvuySong extends Song
   {
     var currentStage = PlayState.instance.currentStage;
     
-    if (event.step >= 64 && event.step <= 160)
+    if (event.step >= 64 && event.step < 160)
     {
       currentStage.getNamedProp('Huvi').idleSuffix = '-embarassed';
       currentStage.getNamedProp('Futry').idleSuffix = '-sad';
