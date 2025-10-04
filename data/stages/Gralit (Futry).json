@@ -1,6 +1,6 @@
 {
   "version": "1.0.2",
-  "name": "Gralit",
+  "name": "Gralit (Futry)",
   "props": [
     {
       "alpha": 1,
@@ -39,6 +39,56 @@
       "scroll": [1, 1],
       "startingAnimation": "",
       "zIndex": 1
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [],
+      "assetPath": "stages/gralit/ruvuy",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "Ruvuy",
+      "position": [70, 175],
+      "scale": 1,
+      "scroll": [1, 1],
+      "startingAnimation": "",
+      "zIndex": 2
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [
+        {
+          "assetPath": null,
+          "flipX": false,
+          "flipY": false,
+          "frameIndices": [],
+          "frameRate": 24,
+          "looped": false,
+          "name": "Idle",
+          "offsets": [0, 0],
+          "prefix": "huvi gralit prop0"
+        }
+      ],
+      "assetPath": "stages/gralit/huvi",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 1,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "Huvi",
+      "position": [485, 355],
+      "scale": 1,
+      "scroll": [1, 1],
+      "startingAnimation": "",
+      "zIndex": 199
     }
   ],
   "characters": {
