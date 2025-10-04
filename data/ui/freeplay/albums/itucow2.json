@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "Itucow 2",
+  "artists": ["Sphis"],
+  "albumArtAsset": "freeplay/albumRoll/itucow2",
+  "albumTitleAsset": "freeplay/albumRoll/itucow2-text",
+  "albumTitleOffsets": [0, 0]
+}
