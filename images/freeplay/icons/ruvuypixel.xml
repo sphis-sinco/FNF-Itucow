@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ruvuypixel.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="confirm0000" x="4" y="4" width="50" height="49" frameX="0" frameY="-6" frameWidth="50" frameHeight="56"/>
+	<SubTexture name="confirm0001" x="4" y="4" width="50" height="49" frameX="0" frameY="-6" frameWidth="50" frameHeight="56"/>
+	<SubTexture name="confirm0002" x="62" y="4" width="44" height="56" frameX="-6" frameY="0" frameWidth="50" frameHeight="56"/>
+	<SubTexture name="confirm0003" x="62" y="4" width="44" height="56" frameX="-6" frameY="0" frameWidth="50" frameHeight="56"/>
+	<SubTexture name="confirm-hold0000" x="4" y="68" width="44" height="54"/>
+	<SubTexture name="idle0000" x="56" y="68" width="47" height="50"/>
+</TextureAtlas>
