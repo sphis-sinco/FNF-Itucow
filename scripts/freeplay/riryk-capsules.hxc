@@ -4,7 +4,7 @@ import funkin.util.ReflectUtil;
 
 using StringTools;
 
-class RirykWeekCapsule extends Module {
+class RirykCapsules extends Module {
 	var currentSubState:String;
 	var freeplaySubState:Bool;
 
