@@ -1,0 +1,92 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Vieda",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/vieda",
+	"healthIcon": {
+		"offsets": [
+			0,
+			32
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "vieda"
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "vieda anim idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				5,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "vieda anim left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				10,
+				-140
+			],
+			"frameRate": 24,
+			"prefix": "vieda anim down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				50,
+				40
+			],
+			"frameRate": 24,
+			"prefix": "vieda anim up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				25,
+				-30
+			],
+			"frameRate": 24,
+			"prefix": "vieda anim right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		}
+	]
+}
