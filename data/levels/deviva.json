@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "Deviva",
+  "titleAsset": "storymenu/titles/riryk",
+  "props": [],
+  "background": "#FF3366",
+  "songs": ["deviva"],
+  "visible": false
+}

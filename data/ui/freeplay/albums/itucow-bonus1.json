@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "Itucow Bonus 1",
+  "artists": ["Sphis"],
+  "albumArtAsset": "freeplay/albumRoll/itucow-bonus1",
+  "albumTitleAsset": "freeplay/albumRoll/itucow-bonus1-text",
+  "albumTitleOffsets": [0, -32]
+}
