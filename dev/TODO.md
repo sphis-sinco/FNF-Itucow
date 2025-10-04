@@ -1,7 +1,12 @@
 # Patches
-N / A
+- [ ] Fix Gralit Grass not being long enough on mobile with the camera zoomed out
 
 # Content
+
+## Spooky Mix
+This is just for if the player has spooky mix installed
+
+- [ ] Add Deviva Song
 
 ## Riryk City
 Unlocked when you finish the Riryk Week
