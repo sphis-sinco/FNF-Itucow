@@ -8,15 +8,11 @@ class RirykWeekCapsule extends Module {
 	var currentSubState:String;
 	var freeplaySubState:Bool;
 
-	var RIRYK_CAPSULE:String = 'RIRYK';
-	var RIRYK_CITY_CAPSULE:String = 'RIRYKCITY';
-
-	var customSongsAndTheirCapsules:Map<String, String> = [
-		"Riryk" => RIRYK_CAPSULE,
-		"Futry" => RIRYK_CAPSULE
-	];
+	var rirykCapsules:Array<String> = [];
+	var rirykCityCapsules:Array<String> = [];
 
 	public function new() {
+		// This registers a NAME for the module, which might be needed later!
 		super("riryk-week-capsule");
 	}
 
@@ -35,25 +31,40 @@ class RirykWeekCapsule extends Module {
 	public function freeplayUpdate() {
 		if (!freeplaySubState)
 			return;
-
 		var freeplay = FlxG.state.subState;
+
 		for (capsule in freeplay.grpCapsules) {
+			// trace(capsule.index);
 
-			var customSongCapsules:Array<String> = [];
-			for (key => value in customSongsAndTheirCapsules)
-				customSongCapsules.push(key);
-
+			var rirykWeekCapsule = false;
+			var albumId = '';
 			var songName = '';
-			if (capsule.freeplayData != null)
-				songName = capsule.freeplayData.fullSongName;
 
-			if (customSongCapsules.contains(songName)) {
+			if (capsule.freeplayData != null) {
+				albumId = capsule.freeplayData.data.getAlbumId(freeplay.currentDifficulty, freeplay.currentVariation);
+				songName = capsule.freeplayData.fullSongName;
+			}
+
+			rirykWeekCapsule = albumId.contains('itucow') || rirykCapsules.contains(songName);
+
+			if (rirykWeekCapsule) {
+				if (!rirykCapsules.contains(songName)) {
+					rirykCapsules.push(songName);
+					if (rirykCityCapsules.contains(songName))
+						trace(songName + ' is a riryk city capsule');
+					else
+						trace(songName + ' is a riryk capsule');
+				}
+
 				capsule.weekType.frames = Paths.getSparrowAtlas('freeplay/freeplayCapsule/weektypes-riryk');
 
-				capsule.weekType.animation.addByPrefix(RIRYK_CAPSULE, 'RIRYK text', 24, false);
-				capsule.weekType.animation.addByPrefix(RIRYK_CITY_CAPSULE, 'RIRYKCITY text', 24, false);
+				capsule.weekType.animation.addByPrefix('RIRYK', 'RIRYK text', 24, false);
+				capsule.weekType.animation.addByPrefix('RIRYKCITY', 'RIRYKCITY text', 24, false);
 
-				capsule.weekType.animation.play(customSongsAndTheirCapsules.get(songName));
+				if (rirykCityCapsules.contains(songName))
+					capsule.weekType.animation.play('RIRYKCITY');
+				else
+					capsule.weekType.animation.play('RIRYK');
 
 				capsule.weekType.visible = true;
 			}
