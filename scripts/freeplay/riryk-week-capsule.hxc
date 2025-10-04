@@ -1,0 +1,58 @@
+import flixel.FlxG;
+import funkin.modding.module.Module;
+import funkin.util.ReflectUtil;
+
+using StringTools;
+
+class RirykWeekCapsule extends Module {
+	var currentSubState:String;
+	var freeplaySubState:Bool;
+
+	public function new() {
+		// This registers a NAME for the module, which might be needed later!
+		super("riryk-week-capsule");
+	}
+
+	public override function onSubStateOpenEnd(event:SubStateScriptEvent) {
+		currentSubState = ReflectUtil.getClassNameOf(FlxG.state.subState);
+
+		trace("CURRENT SUBSTATE: " + currentSubState);
+		freeplaySubState = (currentSubState == "funkin.ui.freeplay.FreeplayState");
+
+		freeplayUpdate();
+	}
+
+	public function onUpdate(event:UpdateScriptEvent) {}
+
+	public function freeplayUpdate() {
+		if (!freeplaySubState)
+			return;
+		var freeplay = FlxG.state.subState;
+
+		for (capsule in freeplay.grpCapsules) {
+			// trace(capsule.index);
+
+			var rirykWeekCapsule = false;
+			var albumId = '';
+			var songName = '';
+
+			if (capsule.freeplayData != null) {
+				albumId = capsule.freeplayData.data.getAlbumId(freeplay.currentDifficulty, freeplay.currentVariation);
+				songName = capsule.freeplayData.fullSongName;
+			}
+
+			rirykWeekCapsule = albumId.contains('itucow');
+
+			if (rirykWeekCapsule) {
+				trace(songName + ' is a riryk week capsule');
+
+				capsule.weekType.frames = Paths.getSparrowAtlas('freeplay/freeplayCapsule/weektypes-riryk');
+
+				capsule.weekType.animation.addByPrefix('RIRYK', 'RIRYK text', 24, false);
+				capsule.weekType.animation.play('RIRYK');
+
+				capsule.weekType.visible = true;
+			}
+		}
+	}
+}
