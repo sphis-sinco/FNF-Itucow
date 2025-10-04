@@ -1,5 +1,5 @@
 # Patches
-- [ ] Fix Huvi Freeplay Icon being Offset
+- [ ] Fix Huvi Freeplay Icon being offset (Help needed!!)
 
 # Content
 - [ ] Add Futry Song
