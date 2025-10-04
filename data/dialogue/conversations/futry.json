@@ -63,6 +63,15 @@
       "boxAnimation": "idle",
 
       "text": ["Knock yourself out."]
+    },
+    {
+      "speaker": "ruvui-confused",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["Oh lord."]
     }
   ]
 }
