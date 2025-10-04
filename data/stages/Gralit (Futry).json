@@ -71,7 +71,7 @@
           "frameIndices": [],
           "frameRate": 24,
           "looped": false,
-          "name": "Idle",
+          "name": "idle",
           "offsets": [0, 0],
           "prefix": "huvi gralit prop0"
         }
@@ -79,7 +79,7 @@
       "assetPath": "stages/gralit/huvi",
       "blend": "",
       "color": "#FFFFFF",
-      "danceEvery": 1,
+      "danceEvery": 2,
       "flipX": false,
       "flipY": false,
       "isPixel": false,
