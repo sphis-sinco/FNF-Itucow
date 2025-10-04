@@ -10,6 +10,9 @@ import funkin.save.Save;
 import flixel.FlxSprite;
 import flixel.util.FlxTimer;
 import funkin.effects.RetroCameraFade;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.cutscene.CutsceneType;
+import funkin.Preferences;
 
 class RuvuySong extends Song
 {
@@ -43,6 +46,7 @@ class RuvuySong extends Song
       //  PlayState.instance.currentStage.pause();
 
       transitionToDialogue();
+      // startVideo();
     }
   }
 
@@ -94,7 +98,7 @@ class RuvuySong extends Song
   {
     super.onSongEnd(event);
 
-    // if (!PlayStatePlaylist.isStoryMode) hasPlayedEndCutscene = true;
+    if (!PlayStatePlaylist.isStoryMode) hasPlayedEndCutscene = true;
 
     if (!hasPlayedEndCutscene)
     {
@@ -130,7 +134,7 @@ class RuvuySong extends Song
 
     trace(Paths.videos(videoPath));
 
-    VideoCutscene.play(Paths.videos(videoPath, ''));
+    VideoCutscene.play(Paths.videos(videoPath, ''), CutsceneType.ENDING);
   }
 
   /**
