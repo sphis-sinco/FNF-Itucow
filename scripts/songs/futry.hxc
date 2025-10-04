@@ -25,7 +25,7 @@ class FutrySong extends Song
     super.onCountdownStart(event);
 
     // Skip the cutscene unless we are in Story Mode
-    // if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
+    if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
 
     // Skip the cutscene if we're playtesting in the Chart Editor.
     if (PlayState.instance.isChartingMode && !hasPlayedCutscene) hasPlayedCutscene = true;
