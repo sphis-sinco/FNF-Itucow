@@ -32,7 +32,11 @@ class RirykCapsules extends Module {
 	public function freeplayUpdate() {
 		if (!freeplaySubState || PlayState.instance != null)
 			return;
+
 		var freeplay = FlxG.state.subState;
+
+		if (freeplay.grpCapsules == null)
+			return;
 
 		for (capsule in freeplay.grpCapsules) {
 			// trace(capsule.index);
