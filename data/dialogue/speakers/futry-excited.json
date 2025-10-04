@@ -10,6 +10,11 @@
     {
       "name": "idle",
       "prefix": "futry excited idle"
+    },
+    {
+      "name": "intro",
+      "prefix": "futry excited intro",
+      "offsets": [-40, 0]
     }
   ]
 }

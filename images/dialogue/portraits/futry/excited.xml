@@ -3,4 +3,8 @@
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="futry excited idle0000" x="4" y="4" width="487" height="591"/>
+	<SubTexture name="futry excited intro0000" x="499" y="4" width="486" height="591" frameX="0" frameY="0" frameWidth="526" frameHeight="593"/>
+	<SubTexture name="futry excited intro0001" x="993" y="4" width="487" height="590" frameX="-4" frameY="-1" frameWidth="526" frameHeight="593"/>
+	<SubTexture name="futry excited intro0002" x="1488" y="4" width="487" height="591" frameX="-17" frameY="-1" frameWidth="526" frameHeight="593"/>
+	<SubTexture name="futry excited intro0003" x="4" y="4" width="487" height="591" frameX="-39" frameY="-2" frameWidth="487" frameHeight="591"/>
 </TextureAtlas>

@@ -76,7 +76,7 @@ class RuvuySong extends Song
   function startDialogue()
   {
     PlayState.instance.disableKeys = false;
-    PlayState.instance.startConversation('futry');
+    PlayState.instance.startConversation('ruvuy');
   }
 
   /**

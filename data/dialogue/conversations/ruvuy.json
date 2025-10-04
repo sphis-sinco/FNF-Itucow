@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 2.0,
+    "color": "#99FFFFFF"
+  },
+
+  "music": {
+    "asset": "breakfast-pico/breakfast-pico",
+    "fadeTime": 0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "futry-excited",
+      "speakerAnimation": "intro",
+
+      "box": "riryk",
+      "boxAnimation": "enter",
+
+      "text": ["RUVUY! IT'S YOUR TURN!"]
+    },
+    {
+      "speaker": "ruvuy-shocked",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["WAIT WHAT!?"]
+    },
+    {
+      "speaker": "ruvuy-shocked",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["NO!"]
+    },
+    {
+      "speaker": "ruvuy-shocked",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["I CAN'T SING!"]
+    },
+    {
+      "speaker": "futry-woah",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["Rap."]
+    },
+    {
+      "speaker": "ruvuy-shocked",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["RAP!"]
+    },
+    {
+      "speaker": "ruvuy-shocked",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["NO!!"]
+    }
+  ]
+}
