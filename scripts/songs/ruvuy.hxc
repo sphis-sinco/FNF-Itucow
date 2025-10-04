@@ -24,6 +24,10 @@ class RuvuySong extends Song
   {
     super.onCountdownStart(event);
 
+    var currentStage = PlayState.instance.currentStage;
+    currentStage.getNamedProp('Huvi').idleSuffix = '';
+    currentStage.getNamedProp('Futry').idleSuffix = '';
+
     // Skip the cutscene unless we are in Story Mode
     if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
 
@@ -104,5 +108,21 @@ class RuvuySong extends Song
     // We may need to wait for the outro to play.
     PlayState.instance.currentStage.resume();
     Countdown.performCountdown();
+  }
+
+  public function onStepHit(event:SongTimeScriptEvent)
+  {
+    var currentStage = PlayState.instance.currentStage;
+    
+    if (event.step >= 64 && event.step <= 160)
+    {
+      currentStage.getNamedProp('Huvi').idleSuffix = '-embarassed';
+      currentStage.getNamedProp('Futry').idleSuffix = '-sad';
+    }
+    else
+    { 
+      currentStage.getNamedProp('Huvi').idleSuffix = '';
+      currentStage.getNamedProp('Futry').idleSuffix = '';
+    }
   }
 }
