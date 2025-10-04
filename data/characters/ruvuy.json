@@ -18,75 +18,75 @@
 	"isPixel": false,
 	"assetPath": "characters/ruvuy",
 	"healthIcon": {
-		"isPixel": false,
 		"offsets": [
 			0,
 			32
 		],
+		"isPixel": false,
 		"scale": 1,
-		"id": "ruvuy",
-		"flipX": false
+		"flipX": false,
+		"id": "ruvuy"
 	},
 	"animations": [
 		{
+			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "ruvuy anim idle",
-			"name": "idle",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "idle"
 		},
 		{
+			"flipY": false,
 			"offsets": [
-				0,
+				5,
 				0
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "ruvuy anim left",
-			"name": "singLEFT",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singLEFT"
 		},
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"flipY": false,
+			"offsets": [
+				10,
+				-140
+			],
 			"frameRate": 24,
 			"prefix": "ruvuy anim down",
-			"name": "singDOWN",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singDOWN"
 		},
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"flipY": false,
+			"offsets": [
+				50,
+				40
+			],
 			"frameRate": 24,
 			"prefix": "ruvuy anim up",
-			"name": "singUP",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singUP"
 		},
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"flipY": false,
+			"offsets": [
+				25,
+				-30
+			],
 			"frameRate": 24,
 			"prefix": "ruvuy anim right",
-			"name": "singRIGHT",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singRIGHT"
 		}
 	]
 }
