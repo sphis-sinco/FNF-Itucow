@@ -3,8 +3,12 @@ import flixel.FlxG;
 import funkin.modding.module.Module;
 import funkin.util.ReflectUtil;
 
+using StringTools;
+
 class RirykWeekCapsule extends Module
 {
+    var currentSubState:String;
+
     public function new()
     {
         // This registers a NAME for the module, which might be needed later!
@@ -13,11 +17,16 @@ class RirykWeekCapsule extends Module
 
     public override function onSubStateOpenEnd(event:SubStateScriptEvent)
     {
-        var substate = ReflectUtil.getClassNameOf(FlxG.state.subState);
+        currentSubState = ReflectUtil.getClassNameOf(FlxG.state.subState);
 
 
-        trace("CURRENT SUBSTATE: "+substate);
-        if (substate == "funkin.ui.freeplay.FreeplayState")
+        trace("CURRENT SUBSTATE: "+currentSubState);
+        freeplayUpdate();
+    }
+
+    public function freeplayUpdate()
+    {
+        if (currentSubState == "funkin.ui.freeplay.FreeplayState")
         {
             var freeplay = FlxG.state.subState;
 
@@ -26,16 +35,27 @@ class RirykWeekCapsule extends Module
                 // trace(capsule.index);
 
                 var rirykWeekCapsule = false;
+                var albumId = '';
+                var songName = '';
 
-                trace(capsule.data.song.getAlbumId(freeplay.currentDifficulty, freeplay.currentVariation));
+                if (capsule.freeplayData != null)
+                {
+                    albumId = capsule.freeplayData.data.getAlbumId(freeplay.currentDifficulty, freeplay.currentVariation);
+                    songName = capsule.freeplayData.fullSongName;
+                }
+
+                rirykWeekCapsule = albumId.contains('itucow');
 
                 if (rirykWeekCapsule)
                 {
-                    weekType.frames = Paths.getSparrowAtlas('freeplay/freeplayCapsule/weektypes-riryk');
+                    trace(songName + ' is a riryk week capsule');
 
-                    weekType.animation.addByPrefix('WEEK', 'WEEK text', 24, false);
-                    weekType.animation.addByPrefix('WEEKEND', 'WEEKEND text', 24, false);
-                    weekType.animation.addByPrefix('RIRYK', 'RIRYK text', 24, false);
+                    capsule.weekType.frames = Paths.getSparrowAtlas('freeplay/freeplayCapsule/weektypes-riryk');
+
+                    capsule.weekType.animation.addByPrefix('RIRYK', 'RIRYK text', 24, false);
+                    capsule.weekType.animation.play('RIRYK');
+
+                    capsule.weekType.visible = true;
                 }
             }
         }
