@@ -1,6 +1,7 @@
 import flixel.FlxG;
 import funkin.modding.module.Module;
 import funkin.util.ReflectUtil;
+import funkin.play.PlayState;
 
 using StringTools;
 
