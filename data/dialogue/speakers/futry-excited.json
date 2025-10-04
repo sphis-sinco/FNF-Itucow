@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "name": "Futry (Excited)",
+  "assetPath": "dialogue/portraits/futry/excited",
+  "flipX": false,
+  "isPixel": false,
+  "scale": 1.0,
+  "offsets": [-350, 30],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "futry excited idle"
+    }
+  ]
+}

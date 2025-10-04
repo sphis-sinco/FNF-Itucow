@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 2.0,
+    "color": "#99FFFFFF"
+  },
+
+  "music": {
+    "asset": "breakfast-pico/breakfast-pico",
+    "fadeTime": 0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "ruvuy-look",
+      "speakerAnimation": "intro",
+
+      "box": "riryk",
+      "boxAnimation": "enter",
+
+      "text": ["Huvi?"]
+    },
+    {
+      "speaker": "futry-woah",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["Hm?"]
+    },
+    {
+      "speaker": "bf-questionmark",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["?"]
+    },
+    {
+      "speaker": "futry-excited",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["HEY! CAN I RAP TOO!?"]
+    },
+    {
+      "speaker": "huvi-sure",
+      "speakerAnimation": "idle",
+
+      "box": "riryk",
+      "boxAnimation": "idle",
+
+      "text": ["Knock yourself out."]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="looking.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ruvuy looking idle0000" x="4" y="4" width="377" height="432"/>
+	<SubTexture name="ruvuy looking intro0000" x="389" y="4" width="377" height="432" frameX="0" frameY="0" frameWidth="417" frameHeight="432"/>
+	<SubTexture name="ruvuy looking intro0001" x="4" y="444" width="376" height="432" frameX="-5" frameY="0" frameWidth="417" frameHeight="432"/>
+	<SubTexture name="ruvuy looking intro0002" x="388" y="444" width="377" height="432" frameX="-18" frameY="0" frameWidth="417" frameHeight="432"/>
+	<SubTexture name="ruvuy looking intro0003" x="4" y="4" width="377" height="432" frameX="-40" frameY="0" frameWidth="377" frameHeight="432"/>
+</TextureAtlas>
