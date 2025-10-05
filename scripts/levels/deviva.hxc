@@ -1,0 +1,24 @@
+import funkin.ui.story.Level;
+import funkin.save.Save;
+
+import funkin.play.song.Song;
+
+import flixel.FlxSprite;
+
+class DevivaLevel extends Level
+{
+  function new()
+  {
+    super('deviva');
+  }
+
+  override function getSongs():Array<String>
+  {
+    var bopeeboSong:Song = new Song('bopeebo');
+
+    if (bopeeboSong.variations.contains('spookymod'))
+      return super.getSongs();
+    
+    return [];
+  }
+}
