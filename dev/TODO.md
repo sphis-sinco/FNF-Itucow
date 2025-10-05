@@ -3,11 +3,6 @@
 
 # Content
 
-## Spooky Mix
-This is just for if the player has spooky mix installed
-
-- [x] Add Deviva Song
-
 ## Riryk City
 Unlocked when you finish the Riryk Week
 
