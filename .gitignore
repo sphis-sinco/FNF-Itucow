@@ -1,7 +1,7 @@
 dev/flFiles/**/Backup/**.flp
 ** (** at **).flp
 RECOVER_**.fla
-**.kra~
+**.**~
 **.swf
 
 # this is just to avoid dupe files
