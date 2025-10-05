@@ -1,7 +1,5 @@
 # Patches
-- [x] Fix Gralit Grass not being long enough on mobile with the camera zoomed out
-- [x] Fix Deviva being visible when Spookymix isn't installed
-- [x] Fix Deviva Inst
+N / A
 
 # Content
 
