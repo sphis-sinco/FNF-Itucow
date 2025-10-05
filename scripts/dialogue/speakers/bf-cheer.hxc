@@ -13,8 +13,6 @@ class BoyfriendCheerSpeaker extends Speaker
     super.playAnimation(name, restart);
 
     if (name == "cheer")
-    {
       FlxG.sound.play(Paths.sound('bf-yeah'));
-    }
   }
 }

@@ -13,8 +13,6 @@ class HuviMicHitSpeaker extends Speaker
     super.playAnimation(name, restart);
 
     if (name == "michit")
-    {
       FlxG.sound.play(Paths.sound('micdrop'));
-    }
   }
 }
