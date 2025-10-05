@@ -10,6 +10,7 @@ class RirykCapsules extends Module {
 	var freeplaySubState:Bool;
 
 	var rirykCapsules:Array<String> = [];
+	var rirykBonusCapsules:Array<String> = ["Deviva"];
 	var rirykCityCapsules:Array<String> = [];
 
 	public function new() {
@@ -58,7 +59,12 @@ class RirykCapsules extends Module {
 			if (rirykWeekCapsule) {
 				if (!rirykCapsules.contains(songName)) {
 					rirykCapsules.push(songName);
-					if (rirykCityCapsules.contains(songName))
+
+					if (rirykBonusCapsules.contains(songName)) {
+						capsule.weekType.x -= 5;
+						trace(songName + ' is a riryk bonus capsule');
+					} 
+					else if (rirykCityCapsules.contains(songName))
 						trace(songName + ' is a riryk city capsule');
 					else
 						trace(songName + ' is a riryk capsule');
@@ -67,9 +73,12 @@ class RirykCapsules extends Module {
 				capsule.weekType.frames = Paths.getSparrowAtlas('freeplay/freeplayCapsule/weektypes-riryk');
 
 				capsule.weekType.animation.addByPrefix('RIRYK', 'RIRYK text', 24, false);
-				capsule.weekType.animation.addByPrefix('RIRYKCITY', 'RIRYKCITY text', 24, false);
+				capsule.weekType.animation.addByPrefix('RIRYKBONUS', 'RIRYKBONUS text', 24, false);
+				// capsule.weekType.animation.addByPrefix('RIRYKCITY', 'RIRYKCITY text', 24, false);
 
-				if (rirykCityCapsules.contains(songName))
+				if (rirykBonusCapsules.contains(songName))
+					capsule.weekType.animation.play('RIRYKBONUS');
+				else if (rirykCityCapsules.contains(songName))
 					capsule.weekType.animation.play('RIRYKCITY');
 				else
 					capsule.weekType.animation.play('RIRYK');
